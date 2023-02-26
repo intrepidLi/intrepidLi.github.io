@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 测试博客">
+    <meta name="keywords" content="BUAA_OO_hw_01, 测试博客">
     <meta name="description" content="网页描述">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 测试博客</title>
+    <title>BUAA_OO_hw_01 | 测试博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -312,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">BUAA_OO_hw_01</h1>
                 </div>
             </div>
         </div>
@@ -445,28 +445,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-12-27
+                    2023-02-22
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-01-01
+                    2023-02-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    604
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -491,19 +491,72 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
+                <h3 id="初步学习："><a href="#初步学习：" class="headerlink" title="初步学习："></a>初步学习：</h3><h4 id="（一）java-StringBuilder类："><a href="#（一）java-StringBuilder类：" class="headerlink" title="（一）java StringBuilder类："></a>（一）java StringBuilder类：</h4><pre class=" language-java"><code class="language-java">StringBuilder sb <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">// 对象名.length() 序列长度</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 0</span>
+<span class="token comment" spellcheck="true">// 对象名.append() 追加到序列</span>
+sb<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// hello</span>
+
+<span class="token comment" spellcheck="true">// 97代表的是是'a'</span>
+sb<span class="token punctuation">.</span><span class="token function">appendCodePoint</span><span class="token punctuation">(</span><span class="token number">97</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// helloa</span>
+
+<span class="token comment" spellcheck="true">// 链式编程</span>
+sb<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"world"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// helloa1world2</span>
+
+<span class="token comment" spellcheck="true">// 索引是5的位置替换成空格</span>
+sb<span class="token punctuation">.</span><span class="token function">setCharAt</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">' '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// hello 1world2</span>
+
+<span class="token comment" spellcheck="true">// 指定位置0前插入0</span>
+sb<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 0hello 1world2</span>
+
+<span class="token comment" spellcheck="true">// 删除索引6(包含)至索引14(不包含)的字符串</span>
+sb<span class="token punctuation">.</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">14</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 0hello</span>
+
+<span class="token comment" spellcheck="true">// StringBuilder类型转换成String类型</span>
+String s <span class="token operator">=</span> sb<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 0hello</span>
+ 
+<span class="token comment" spellcheck="true">// 以及还有截取、反转、替换等方法</span>
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server
+<hr>
+<h4 id="（二）java-next-方法："><a href="#（二）java-next-方法：" class="headerlink" title="（二）java next()方法："></a>（二）java next()方法：</h4><ul>
+<li><p>.next()方法的作用：<strong>指针指向下一条记录</strong>，有记录（有值）返回true并把记录内容存入到对应的对象中，也就是obj.next()的obj中。如果没有返回false。</p>
+</li>
+<li><p>.next()方法的应用：一般和ResultSet对象和while循环一起使用，去迭代结果集，<strong>并在循环中调用getXXX(intfieldIndex)/getXXX(String columnName)方法获取字段值</strong>。</p>
+</li>
+<li><p>过程：ResultSet对象具有指向其当前数据行的指针。开始，指针被置于第一行。.next()方法将指针移动到下一行，然后while循环迭代遍历ResultSet对象。</p>
+</li>
+</ul>
+<p>while (obj.next()) {</p>
+<p>}</p>
+<p>光标移动到下一行数据，有值（数据）返回true并迭代遍历，没有返回false退出循环。</p>
+<hr>
+<h4 id="（三）java-charAt-方法："><a href="#（三）java-charAt-方法：" class="headerlink" title="（三）java charAt()方法："></a>（三）java charAt()方法：</h4><h2 id="charAt-方法用于返回指定索引处的字符。索引范围为从-0-到-length-1。-Example-java-public-class-Test-public-static-void-main-String-args-String-s-quot-www-runoob-com-quot-char-result-s-charAt-6-System-out-println-result-运行结果-n"><a href="#charAt-方法用于返回指定索引处的字符。索引范围为从-0-到-length-1。-Example-java-public-class-Test-public-static-void-main-String-args-String-s-quot-www-runoob-com-quot-char-result-s-charAt-6-System-out-println-result-运行结果-n" class="headerlink" title="charAt() 方法用于返回指定索引处的字符。索引范围为从 0 到 length() - 1。##### Example:java  public class Test {     public static void main(String args[]) {         String s = &quot;www.runoob.com&quot;;         char result = s.charAt(6);         System.out.println(result);     } } //运行结果:n"></a>charAt() 方法用于返回指定索引处的字符。索引范围为从 0 到 length() - 1。<br>##### Example:<br><code>java  public class Test {     public static void main(String args[]) {         String s = "www.runoob.com";         char result = s.charAt(6);         System.out.println(result);     } } //运行结果:n</code></h2><h4 id="Iterator"><a href="#Iterator" class="headerlink" title="Iterator:"></a>Iterator:</h4><p><strong>1.java.util.Iterator</strong></p>
+<p>下面让我们看看Java中的Iterator接口是如何实现的<br>　　在Java中Iterator为一个接口，它只提供了迭代的基本规则。在JDK中它是这样定义的：对Collection进行迭代的迭代器。迭代器取代了Java Collection Framework中的Enumeration。迭代器与枚举有两点不同:</p>
+<ul>
+<li>迭代器在迭代期间可以从集合中移除元素。</li>
+<li>方法名得到了改进，Enumeration的方法名称都比较长。</li>
+</ul>
+<p><strong>2.接口定义</strong></p>
+<pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> java<span class="token punctuation">.</span>util<span class="token punctuation">;</span>
+<span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">Iterator</span><span class="token operator">&lt;</span>E<span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">boolean</span> <span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//判断是否存在下一个对象元素</span>
+
+    E <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//获取下一个元素</span>
+
+    <span class="token keyword">void</span> <span class="token function">remove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//移除元素</span>
+<span class="token punctuation">}</span>
 </code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<hr>
+<h3 id="Training1"><a href="#Training1" class="headerlink" title="Training1"></a>Training1</h3><h4 id="basic"><a href="#basic" class="headerlink" title="basic:"></a>basic:</h4><p>Expr类：表达式的字符串</p>
+<p>Term类：数字或者数字乘积</p>
+<p>Factor类：数字</p>
 
                 
             </div>
@@ -530,7 +583,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://intrepidLi.github.io/2022/12/27/hello-world/">https://intrepidLi.github.io/2022/12/27/hello-world/</a>
+                    <a href="https://intrepidLi.github.io/2023/02/22/BUAA_OO_hw_01/">https://intrepidLi.github.io/2023/02/22/BUAA_OO_hw_01/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -872,54 +925,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2023/01/01/markdown%E7%94%A8%E6%B3%95%E4%BB%8B%E7%BB%8D/">
+                <a href="/2023/02/22/BUAA_OO_hw_01/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="markdown用法介绍">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="BUAA_OO_hw_01">
                         
-                        <span class="card-title">markdown用法介绍</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-01-01
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            intrepidLi
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/12/27/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">BUAA_OO_hw_01</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -930,7 +947,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-22
                             </span>
                         <span class="publish-author">
                             
@@ -941,6 +958,43 @@
                     </div>
                 </div>
 
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/01/26/%E5%A4%84%E7%90%86%E6%95%B0%E6%8D%AE%E8%AE%B0%E5%BD%95/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            intrepidLi
+                            
+                        </span>
+                    </div>
+                </div>
                 
             </div>
         </div>
