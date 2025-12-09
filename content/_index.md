@@ -63,24 +63,29 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant
+        - title: Research Assistant and PhD Student
           company: MISC Lab, CUHK
           company_url: 'https://misc-lab.cse.cuhk.edu.hk/'
           company_logo: misc_lab
           location: Hong Kong SAR, China
           date_start: '2024-04-01'
-          date_end: '2024-09-21'
-          description: Design a new method for transferring language model watermarks to image-to-text models.
-
-
-
+          date_end: ''
+          description: Design a new method for transferring language model watermarks to image-to-text models. Learn about methods for generative recommendation systems.
+        - title: Exchange Student
+          company: University of Stuttgart
+          company_url: 'https://www.uni-stuttgart.de/en/'
+          company_logo: uos
+          location: Stuttgart, Germany
+          date_start: '2025-03-01'
+          date_end: '2025-06-30'
+          description: Learn Deutsch and Reinforcement Learning courses.
         - title: Research Assistant
           company: Knowledge Engineering Group(KEG), THU
           company_url: 'https://keg.cs.tsinghua.edu.cn/'
           company_logo: THU_keg
           location: Beijing, China
           date_start: '2023-04-01'
-          date_end: ''
+          date_end: '2024-12-31'
           description: Design a comprehensive benchmark for evaluating LLM watermark algorithms called WaterBench. Learn about methods for LLM jailbreaking and defense.
           # description: |2-
           #     Responsibilities include:

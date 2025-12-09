@@ -17,22 +17,21 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Fourth-year BEng student in Computer Science
+role: 1st-year PhD. student in Computer Science and Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Beihang University
-    url: https://www.buaa.edu.cn/
+  - name: The Chinese University of Hong Kong
+    url: https://www.cuhk.edu.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include natural language processing and deep learning.
+bio: My research interests include generative recommendation systems and LLM post-training.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Machine Learning
-  - Natural Language Processing
-  - Data Science and System
+  - Generative Recommendation Systems
+  - LLM Security and Privacy
+  - LLM Post-training
   
 
 # Education to show in About widget
@@ -40,7 +39,13 @@ education:
   courses:
     - course: BEng in Computer Science and Technology
       institution: Beihang University
-      year: 2021-Present
+      year: 2021-2025
+    - course: Exchange Student in Computer Science
+      institution: Stuttgart University
+      year: 2025 Spring
+    - course: PhD Student in Computer Science and Engineering
+      institution: The Chinese University of Hong Kong
+      year: 2025-present
     # - course: MEng in Artificial Intelligence
     #   institution: Massachusetts Institute of Technology
     #   year: 2009
@@ -122,5 +127,5 @@ social:
 highlight_name: true
 ---
 
-I'm a BEng student at Beihang University, majoring in Computer Science and Technology. I'm now interested in the fields of artifical intelligence. I'd like to make computer understand human language better and help people solve problems in their daily life. Here is my [English CV](uploads/resume_en.pdf) and [Chinese CV](uploads/resume_zh.pdf). I'm currently looking for a PhD position in Computer Science. If you are interested in my research, please feel free to contact me.
+I'm a CS PhD student at The Chinese University of Hong Kong, supervised by [Prof.Irwin King](https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/). I'm now interested in the fields of recommendation systems and LLMs, special in generative recommendation systems and LLM post-training. I'd like to make these systems more effective and user-friendly. Here is my [English CV](uploads/resume_en.pdf) and [Chinese CV](uploads/resume_zh.pdf).
 {style="text-align: justify;"}
