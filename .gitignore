@@ -10,3 +10,9 @@ go.sum
 .hugo_build.lock
 LICENSE.md
 .github/FUNDING.yml
+_vendor/
+layouts/
+
+# OS files
+.DS_Store
+

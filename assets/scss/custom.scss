@@ -1,0 +1,16 @@
+/*
+ * 假设主题在浅色模式下会给 body 添加 .light 类。
+ * 请用您主题实际使用的类名替换这里的 `.light`。
+ */
+body.light, 
+:root:not(.dark) { /* 这是一个更通用的尝试 */
+    color-scheme: light !important; 
+}
+
+/*
+ * 假设主题在深色模式下会给 body 添加 .dark 类。
+ */
+body.dark,
+:root.dark {
+    color-scheme: dark !important;
+}

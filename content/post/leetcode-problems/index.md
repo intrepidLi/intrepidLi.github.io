@@ -3,6 +3,9 @@ title: Leetcode Problems
 date: 2024-05-23
 math: true
 summary: Some Leetcode problems and solutions.
+
+categories:
+  - Algorithms
 ---
 
 
